@@ -4,7 +4,7 @@ require_once '../PHPToolkit/NetSuiteService.php';
 error_reporting(E_ALL ^ E_NOTICE);
 
 $service = new NetSuiteService();
-$service->setSearchPreferences(false, 1000, false);
+$service->setSearchPreferences(false, 2000, false);
 
 $search = new ItemSearchAdvanced();
 $search->savedSearchId = "20";
